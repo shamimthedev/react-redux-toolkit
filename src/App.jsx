@@ -3,7 +3,9 @@
 // import Rightbar from "./components/rightbar/Rightbar";
 // import Update from "./components/update/Update";
 import "./app.css";
-import Counter from "./features/Counter";
+import AddPostForm from "./features/posts/AddPostForm";
+// import Counter from "./features/counter/Counter";
+import PostsList from "./features/posts/PostList";
 
 const App = () => {
   return (
@@ -14,7 +16,12 @@ const App = () => {
         <Update />
         <Rightbar />
       </div> */}
-      <Counter />
+      
+      
+      {/* <Counter /> */}
+
+      <AddPostForm/>
+      <PostsList/>
 
     </>
   );
